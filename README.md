@@ -13,6 +13,4 @@ crypto_stream_chacha20_xor(encrypted, data, sizeof(data), nonce, key);
 
 unsigned char decrypted[sizeof(encrypted)];
 crypto_stream_chacha20_xor(decrypted, encrypted, sizeof(encrypted), nonce, key);
-
-. . .
 ```
